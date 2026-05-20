@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\1.JPG" />
+    <None Remove="Images\10.JPG" />
+    <None Remove="Images\2.JPG" />
+    <None Remove="Images\4.JPG" />
+    <None Remove="Images\5.JPG" />
+    <None Remove="Images\6.JPG" />
+    <None Remove="Images\7.JPG" />
+    <None Remove="Images\8.JPG" />
+    <None Remove="Images\9.JPG" />
+    <None Remove="Images\icon.ico" />
+    <None Remove="Images\icon.jpg" />
+    <None Remove="Images\icon.png" />
+    <None Remove="Images\picture.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\10.JPG" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.8" />
+    <PackageReference Include="System.Data.OleDb" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\1.JPG" />
+    <Resource Include="Images\2.JPG" />
+    <Resource Include="Images\4.JPG" />
+    <Resource Include="Images\5.JPG" />
+    <Resource Include="Images\6.JPG" />
+    <Resource Include="Images\7.JPG" />
+    <Resource Include="Images\8.JPG" />
+    <Resource Include="Images\9.JPG" />
+    <Resource Include="Images\icon.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\icon.jpg" />
+    <Resource Include="Images\icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\picture.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
